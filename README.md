@@ -1,4 +1,4 @@
-# Python
+# EXPLORE THE WORLD OF PYTHON LANGUAGE
 
 ## OPENCLASSROOM online course sur la statistique inférentielle
 
