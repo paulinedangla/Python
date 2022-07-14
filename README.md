@@ -1,32 +1,57 @@
 # EXPLORE THE WORLD OF PYTHON LANGUAGE
 
-## OPENCLASSROOM online course sur la statistique inférentielle
+## OPENCLASSROOMS online course on inferential statistics
 
-J'ai suivi le cours d'initiation à la statistique inférentielle sur Openclassroom en juillet 2022, dispensé par un professeur de l'ENSAE-ENSAI. 
+I took the introductory course in inferential statistics on Openclassroom in July 2022, given by a professor from ENSAE-ENSAI.
 
-Nous y étudions la pluralité des réponses apportées lors de questions stratégiques pour l'entreprise. Ces réponses sont expliquées par des outils d'aides à la décision tels que : 
-- Estimation ponctuelle (loi de Bernouilli ou loi Normale)
-- Intervalle de confiance
-- Test statistique
+We study the plurality of responses given to strategic questions for the company. These answers are explained by decision support tools such as:
+- Point estimate (Bernouilli's law or Normal law)
+- Confidence interval
+- Statistical test
 
-Les enjeux de la statistique inférentielle donne naissance à un modèle probabiliste. 
+The challenges of inferential statistics give rise to a probabilistic model.
 
-### Estimation ponctuelle
+### Point estimate
 
-Elle tient compte de deux sources d'aléas : 
-- la variabilité intrinsèque 
-- la variabilité due à l'échantillonnage
+It takes into account two sources of randomness:
+- intrinsic variability
+- variability due to sampling
 
-dont nous supposerons que :
-- les variables aléatoires sont indépendantes et identiquement distribuées (iid).
-- un estimateur est exhaustif si :
-  - il est consistant
-  - le biais est raisonnable
-  - le risque quadratique est raisonnable
+which we assume that:
+- the random variables are independent and identically distributed (iid).
+- an estimator is exhaustive if:
+   - it is consistent
+   - the bias is reasonable
+   - the quadratic risk is reasonable
   
-L'estimation ponctuelle est représentée par la proportion, la moyenne et la variance.
+The point estimate is represented by the proportion, mean and variance.
 
 ### Intervalle de confiance
 
+- sur une proportion : loi binomiale pour des petits échantillons ou loi normale pour des grands échantillons
+- sur une moyenne : loi de Student
+- sur une variance : loi de Khi-deux
+
+### Test statistique (mêmes lois que l'intervalle de confiance)
+
+Hypothèses : 
+- hypothèses de travail : h0 (hypothèse nulle) et h1 (hypothèse alternative)
+- région critique : zone de rejet de la h0
+- risques liés à la décision : erreur de première espèce ou erreur de second espèce
+- p-valeur 
+
+### Confidence interval
+
+- on a proportion: binomial distribution for small samples or normal distribution for large samples
+- on an average: Student's law
+- on a variance: Chi-square law
+
+### Statistical test (same laws as the confidence interval)
+
+Hypotheses :
+- working hypotheses: h0 (null hypothesis) and h1 (alternative hypothesis)
+- critical region: h0 rejection zone
+- risks related to the decision: error of the first kind or error of the second kind
+- p-value
 
 
