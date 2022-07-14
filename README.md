@@ -1,6 +1,7 @@
 # EXPLORE THE WORLD OF PYTHON LANGUAGE
 
 This workbook concentrates all the lessons and exercises that I followed during my learning of the Python language :
+- The UDEMY online course "XXX" by XXX.
 - [OPENCLASSROOMS online course on inferential statistics](https://openclassrooms.com/fr/courses/4525306-initiez-vous-a-la-statistique-inferentielle)
 
 ## OPENCLASSROOMS online course on inferential statistics
