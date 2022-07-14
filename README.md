@@ -1,5 +1,8 @@
 # EXPLORE THE WORLD OF PYTHON LANGUAGE
 
+This workbook concentrates all the lessons and exercises that I followed during my learning of the Python language :
+- [OPENCLASSROOMS online course on inferential statistics](https://openclassrooms.com/fr/courses/4525306-initiez-vous-a-la-statistique-inferentielle)
+
 ## OPENCLASSROOMS online course on inferential statistics
 
 I took the introductory course in inferential statistics on Openclassroom in July 2022, given by a professor from ENSAE-ENSAI.
