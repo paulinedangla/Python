@@ -1,4 +1,4 @@
-# BMI calculator
+# 1 - BMI CALCULATOR
 
 height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
@@ -8,3 +8,32 @@ bmi = int(weight) / (float(height) **2)
 bmi_as_int = int(bmi)
 print(bmi_as_int)
 
+# 2 - LIFE IN WEEKS
+
+age = input("What is your current age?")
+
+age_as_int = int(age)
+year_remaining = 90 - age_as_int
+
+months_remaining = year_remaining * 12
+weeks_remaining = year_remaining * 52
+days_remaining = year_remaining * 365
+
+print(f"You have {days_remaining} days, {weeks_remaining} weeks, and {months_remaining} months left.")
+
+# 3 - TIP CALCULATOR
+
+print("Welcome to the tip calculator !")
+
+bill = float(input("What was the total bill ? $"))
+tip = int(input("How much tip would you like to give? 10,12 or 15?"))
+people = int(input("How many people to split the bill ?"))
+
+tip_as_percent= tip/100
+
+total_tip_amount = bill * tip_as_percent
+total_bill = bill + total_tip_amount
+bill_by_people = total_bill / people
+
+decimal_bill_by_people  = "{:.2f}".format(bill_by_people )
+print(f"Each person should pay: ${decimal_bill_by_people}")
