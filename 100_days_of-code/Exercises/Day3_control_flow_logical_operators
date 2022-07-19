@@ -56,4 +56,74 @@ if year %4 == 0 :
     else : 
         print("Leap year.")
 else :
-    print ("Not leap year.")     
+    print ("Not leap year.")  
+
+# PIZZA ORDER
+
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M, or L ")
+add_pepperoni = input("Do you want pepperoni? Y or N ")
+extra_cheese = input("Do you want extra cheese? Y or N ")
+
+if size == "S":
+    size = 15
+    if add_pepperoni == "Y":
+        if extra_cheese == "Y":
+            add_pepperoni = 2
+            extra_cheese = 1
+            pizza = size + add_pepperoni + extra_cheese
+            print(f"Your final bill is: ${pizza}.")
+        else : 
+            add_pepperoni = 2
+            pizza = size + add_pepperoni
+            print(f"Your final bill is: ${pizza}.")
+    else : 
+        if extra_cheese == "Y":
+            extra_cheese = 1
+            pizza = size + extra_cheese
+            print(f"Your final bill is: ${pizza}.")
+        else : 
+            pizza = size
+            print(f"Your final bill is: ${pizza}.")
+
+elif size == "M":
+    size = 20
+    if add_pepperoni == "Y":
+        if extra_cheese == "Y":
+            add_pepperoni = 3
+            extra_cheese = 1
+            pizza = size + add_pepperoni + extra_cheese
+            print(f"Your final bill is: ${pizza}.")
+        else : 
+            add_pepperoni = 3
+            pizza = size + add_pepperoni
+            print(f"Your final bill is: ${pizza}.")
+    else : 
+        if extra_cheese == "Y":
+            extra_cheese = 1
+            pizza = size + extra_cheese
+            print(f"Your final bill is: ${pizza}.")
+        else : 
+            pizza = size
+            print(f"Your final bill is: ${pizza}.")
+
+else :
+    size = 25
+    if add_pepperoni == "Y":
+        if extra_cheese == "Y":
+            add_pepperoni = 3
+            extra_cheese = 1
+            pizza = size + add_pepperoni + extra_cheese
+            print(f"Your final bill is: ${pizza}.")
+        else : 
+            add_pepperoni = 3
+            pizza = size + add_pepperoni
+            print(f"Your final bill is: ${pizza}.")
+    else : 
+        if extra_cheese == "Y":
+            extra_cheese = 1
+            pizza = size + extra_cheese
+            print(f"Your final bill is: ${pizza}.")
+        else : 
+            pizza = size
+            print(f"Your final bill is: ${pizza}.")
