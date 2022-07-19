@@ -1,28 +1,3 @@
-# 1 - BMI CALCULATOR
-
-height = input("enter your height in m: ")
-weight = input("enter your weight in kg: ")
-
-
-bmi = int(weight) / (float(height) **2)
-bmi_as_int = int(bmi)
-print(bmi_as_int)
-
-# 2 - LIFE IN WEEKS
-
-age = input("What is your current age?")
-
-age_as_int = int(age)
-year_remaining = 90 - age_as_int
-
-months_remaining = year_remaining * 12
-weeks_remaining = year_remaining * 52
-days_remaining = year_remaining * 365
-
-print(f"You have {days_remaining} days, {weeks_remaining} weeks, and {months_remaining} months left.")
-
-# 3 - TIP CALCULATOR
-
 print("Welcome to the tip calculator !")
 
 bill = float(input("What was the total bill ? $"))
