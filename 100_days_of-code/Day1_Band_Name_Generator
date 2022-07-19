@@ -1,4 +1,4 @@
-# 1 - CREATE A GREETING FOR YOUR PROGRAM
+# CREATE A GREETING FOR YOUR PROGRAM
 print("Welcome to the Band Name Generator")
 
 #2. Ask the user for the city that they grew up in.
@@ -10,15 +10,3 @@ pet = input("What is your pet's name ?\n")
 #4. Combine the name of their city and pet and show them their band name.
 print("Your band name could be " + city + " " + pet)
 
-# 2 - LIFE IN WEEKS
-
-age = input("What is your current age?")
-
-age_as_int = int(age)
-year_remaining = 90 - age_as_int
-
-months_remaining = year_remaining * 12
-weeks_remaining = year_remaining * 52
-days_remaining = year_remaining * 365
-
-print(f"You have {days_remaining} days, {weeks_remaining} weeks, and {months_remaining} months left.")
