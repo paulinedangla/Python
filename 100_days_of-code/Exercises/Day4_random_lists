@@ -1,0 +1,21 @@
+# HEADS AND TAILS
+
+import random
+
+random_int = random.randint(0,1)
+
+if random_int == 0 :
+    print ("Heads")
+else : 
+    print ("Tails")
+
+# BANKER ROULETTE
+
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
+
+import random
+name_random = random.randint(0,len(names)-1)
+name_bill = names[name_random]
+
+print(f"{name_bill} is going to buy the meal today !")
