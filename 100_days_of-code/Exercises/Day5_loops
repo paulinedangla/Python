@@ -16,3 +16,19 @@ for student in student_heights :
 
 average_heigh = total_heigh/number_of_students
 print(round(average_heigh))
+
+# HIGH SCORE
+
+student_scores = input("Input a list of student scores ").split()
+for n in range(0, len(student_scores)):
+  student_scores[n] = int(student_scores[n])
+print(student_scores)
+
+score_max = 0
+for score in student_scores :
+  if  score > score_max:
+    score_max = score
+  else : 
+    score_max = score_max
+    
+print(f"The highest score ins the clas is : {score_max}")
