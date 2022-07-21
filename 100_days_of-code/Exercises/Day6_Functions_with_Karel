@@ -22,7 +22,7 @@ def one_turn():
 for step in range (6): 
     one_turn()
     
-# WHILE LOOPS
+# WHILE LOOPS 1
 
 #The request was made on : https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%202&url=worlds%2Ftutorial_en%2Fhurdle2.json
 
@@ -45,3 +45,30 @@ def one_turn():
 
 while not at_goal() :
     one_turn()
+
+# WHILE LOOPS 2
+
+#The request was made on : https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json
+
+#Preview of the request :
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+def one_turn():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+
+while not at_goal() :
+    if wall_in_front():   
+        one_turn()
+    else : 
+        move()
+
