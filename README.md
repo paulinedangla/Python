@@ -1,7 +1,7 @@
 # EXPLORE THE WORLD OF PYTHON LANGUAGE
 
 This workbook concentrates all the lessons and exercises that I followed during my learning of the Python language :
-- The UDEMY online course "XXX" by XXX.
+- The UDEMY online course [100 Days of Code : The complete Python Pro Bootcamp for 2022](https://www.udemy.com/course/100-days-of-code/) by Angela Yu.
 - [OPENCLASSROOMS online course on inferential statistics](https://openclassrooms.com/fr/courses/4525306-initiez-vous-a-la-statistique-inferentielle)
 
 ## OPENCLASSROOMS online course on inferential statistics
@@ -15,24 +15,14 @@ We study the plurality of responses given to strategic questions for the company
 
 The challenges of inferential statistics give rise to a probabilistic model.
 
-### Point estimate
+## ONLINE COURSE UDEMY
 
-It takes into account two sources of randomness:
-- intrinsic variability
-- variability due to sampling
-  
-The point estimate is represented by the proportion, mean and variance.
 
-### Confidence interval
-
-- on a proportion: binomial distribution for small samples or normal distribution for large samples
-- on an average: Student's law
-- on a variance: Chi-square law
-
-### Statistical test (same laws as the confidence interval)
-
-Hypotheses :
-- working hypotheses: h0 (null hypothesis) and h1 (alternative hypothesis)
-- critical region: h0 rejection zone
-- risks related to the decision: error of the first kind or error of the second kind
-- p-value
+3h/d granted in learning the Python language:
+- Variables
+- Logical operators
+- Random
+- Lists
+- Dictionaries
+- If, for and while loops
+- Functions
